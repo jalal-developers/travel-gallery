@@ -1,16 +1,53 @@
-# React + Vite
+﻿# Travel Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and lightweight React application built with Vite that showcases a collection of travel destinations.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Travel Gallery is a minimalistic image gallery displaying various travel locations. It is built using modern React practices and served via Vite for optimal development experience and lightning-fast HMR (Hot Module Replacement).
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (^19.2.4) - A JavaScript library for building user interfaces.
+- **Vite** (^8.0.4) - Next-generation frontend tooling.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your local machine.
+
+### Installation
+
+1. Clone the repository or navigate to your project directory.
+2. Install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+This will launch Vite and serve your app. By default, it runs on `http://localhost:5173`. Open this URL in your browser to view the Travel Gallery.
+
+### Building for Production
+
+To create a production-ready build, run:
+
+```bash
+npm run build
+```
+
+The output will be generated in the `dist` folder.
+
+To preview the production build locally, run:
+
+```bash
+npm run preview
+```
